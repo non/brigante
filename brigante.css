@@ -1,7 +1,13 @@
 body {
- color: #ffeedd;
- background-color: #111111;
- font-family: monospace;
+    color: #ffeedd;
+    background-color: #111111;
+    font-family: monospace;
+}
+
+button {
+    color: #ffbb77;
+    background-color: #555555;
+    border-color: #333333;
 }
 
 a:link { color: #ffbb77; text-decoration: none; }
@@ -21,7 +27,7 @@ a:hover { color: #ffbb77; text-decoration: none; }
 }
 
 #right {
-  position: absolute;
-  top: 30px;
-  left: 1040px;
+    position: absolute;
+    top: 30px;
+    left: 1040px;
 }
