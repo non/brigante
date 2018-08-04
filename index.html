@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>brigante</title>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="brigante.css">
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="underscore-min.js"></script>
+  <script src="brigante.js"></script>
+ </head>
+ <body>
+   <pre>
+∴ brigante pomodoro (<a href="about.html">about</a>)
+
+---
+     
+<div id="stopped">■ currently: no task running</div><div id="running" hidden="1">■ currently doing: <span id="curtask"></span><br>
+how did it go? <button id="done">done</button> <button id="great">great</button> <button id="ok">ok</button> <button id="notgreat">not great</button></div>
+---
+
+<button id="start">start random task</button>
+
+≡ tasks:
+<div id="items"></div>
+
+⊕ add task:
+<input id="newtask" type="text" /><button id="add">add</button>
+
+---
+
+⊗ debug:
+
+<button id="reset">erase all tasks</button>
+
+<button id="cheat">allow cheating</button><button id="nocheat">disallow cheating</button>
+
+---
+
+⊟ log:
+<div id="log">
+</div>
+   </pre>
+ </body>
+</html>

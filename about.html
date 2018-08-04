@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>brigante</title>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="brigante.css">
+ </head>
+ <body>
+   <pre>
+<b>∞ about brigante pomodoro (<a href="index.html">back<a>)</b>
+
+brigante pomodoro is a todo system that combines a <i>pomodoro
+technique</i> with a <i>stochastic scheduler</i> based
+on <i>multi-armed bandits</i>.
+
+on this site, you can input tasks any time you think of them. these
+tasks can be very small or very large, it's up to you.
+
+these tasks are saved in your browser's local storage, meaning if you
+refresh the web page they will still be there. (this also means your
+tasks will not follow you between different computers or web
+browsers.)
+
+---
+
+<b>∞ how to use brigante pomodoro:</b>
+
+when you are ready to start working on a task (e.g. start a 25-minute
+pomodoro interval) you click <b>start random task</b>.
+
+at the end of the pomodoro interval, you report back your results:
+
+ * <b>done</b>: the task is complete (and should be removed)
+ * <b>great</b>: the task went well (increasing its likelihood of being chosen again)
+ * <b>ok</b>: the task went ok (no change in likelihood)
+ * <b>not great</b>: the task went poorly (decreasing its likelihood of being chosen again)
+
+the goal here is to help reduce <i>decision paralysis</i> for people
+who have lots of ideas of things to do, and to keep them feeling
+productive. for tasks that are urgent but difficult, this weighting
+system is not likely to be optimal.
+
+currently this site does not provide built-in timers or pomodoro
+enforcement. you can also enable cheating, which allows you to choose
+which tasks to start. one other use case for this is to mark tasks
+completed which you already finished, or which you not longer want
+listed.
+
+finally, you can use <b>erase all tasks</b> to completely reset your
+data, deleting all history, all previous tasks, etc.
+   </pre>
+ </body>
+</html>
